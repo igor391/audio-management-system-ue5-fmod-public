@@ -1,6 +1,7 @@
 ## Runtime Audio System (UE5 + FMOD) — Code Samples
 
 This repository contains a focused set of C++ code samples extracted from a production Unreal Engine 5 project, demonstrating a runtime audio system designed with performance and scalability in mind.
+
 Extended implementation available upon request.
 
 The system is built around a central audio manager responsible for evaluating playback decisions, while audio components act solely as execution layers. Gameplay and animation systems never play audio directly — they route requests through the audio system.
@@ -13,4 +14,5 @@ Editor-only tooling and non-essential features have been intentionally omitted t
 
 Author:
 Igor Szymański — Sound Director / Sound Designer / Audio Programmer
+
 UE5 · FMOD · C++ · Runtime Audio Systems
